@@ -1,5 +1,3 @@
-<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-
 function getLocalTime(nS) {
     return new Date(parseInt(nS) * 1000).toLocaleString().replace(/:\d{1,2}$/,' ');
 }
